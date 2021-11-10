@@ -23,4 +23,8 @@
     .css-searchInput{
         width: 10em;
     }
+    .css-aic{
+        display: flex;
+        align-items: center;
+    }
 }

@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-.container{
+body{
     font-family: 'Rubik', sans-serif;
 }
 .css-container{
-    /* background-color: coral; */
     padding: 3em;
     margin: auto;
 }
@@ -92,4 +91,11 @@ input[type="submit"]{
 }
 .forgot-pass a{
     color: black;
+}
+@media screen and (max-width: 600px){
+    .css-container{
+        padding-top: 2em !important;
+        padding: 0.5em;
+        margin: auto;
+    }
 }
